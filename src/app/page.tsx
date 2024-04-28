@@ -1,3 +1,5 @@
+import SignInButton from "./components/SignInButton";
+
 export default function Home() {
   return (
     <div className="w-screen h-screen flex flex-col items-center justify-center">
@@ -11,6 +13,7 @@ export default function Home() {
             Login
           </span>
         </div>
+        <SignInButton />
       </div>
     </div>
   );
